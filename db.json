@@ -1,0 +1,41 @@
+{
+    "folder": [
+        {
+            "id": 0,
+            "name": "root",
+            "subfolders": [
+                { "id": 1, "name": "folder_1" },
+                { "id": 2, "name": "folder_2" }
+            ],
+            "files": [
+                { "id": 1, "name": "file_1.example" },
+                { "id": 2, "name": "file_2.example" },
+                { "id": 3, "name": "file_3.example" }
+            ]
+        },
+        {
+            "id": 1,
+            "name": "folder_1",
+            "subfolders": [{ "id": 3, "name": "folder_3" }],
+            "files": [
+                { "id": 4, "name": "file_4.example" },
+                { "id": 5, "name": "file_5.example" }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "folder_2",
+            "subfolders": [],
+            "files": [
+                { "id": 6, "name": "file_6.example" },
+                { "id": 7, "name": "file_7.example" }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "folder_3",
+            "subfolders": [],
+            "files": [{ "id": 8, "name": "file_8.example" }]
+        }
+    ]
+}
